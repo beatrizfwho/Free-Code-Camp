@@ -1,92 +1,89 @@
+
+/* ----------------------------- RESET CSS ------------------------------------ */ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,400&display=swap');
+
 body {
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
-    padding: 20px;
+    background-image: url("assets/bg-1.jpg");
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
-hr {
-    height: 2px;
-    background-color: brown;
-    border-color: brown;
-}
-
-.bottom-line {
-    margin-top: 25px;
-}
-
-h1,h2,p {
+#title {
     text-align: center;
+    margin: 50px;
 }
 
-.italic {
+#italic {
     font-style: italic;
 }
 
-.menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
+span {
+	font-weight: bold;
+	font-size: 17px;
+	
 }
 
-.flavor, .dessert {
-    text-align: left;
-    width: 75%;
-}
-
-.price {
-    text-align: right;
-    width: 25%;
-}
-
-.item p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-
-h1, h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-/* footer */ 
-
-footer {
-    font-size: 14px;
-}
-
-.address {
-    margin-bottom: 5px;
-}
-
-a {
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: brown;
-}
-
-a:active {
-    color: brown;
-}
-
-img {
+label {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -25px;
-  }
+}
+
+form {
+	background: rgba(0, 0, 0, .7);
+	padding: 30px;
+	border-radius: 20px;
+	width: 800px;
+	min-width: 500px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+fieldset {
+	border: none;
+	margin: auto;
+}
+
+#dados-user, #role-recommend, #improve-feature {
+	width: 90%;
+	padding: 10px;
+}
+
+.input {
+	width:80%;
+	padding: 5px;
+	margin: 10px 0;
+}
+
+.input-age {
+	width: 40%;
+	padding: 5px;
+	margin: 10px 0;
+}
+
+#current-role {
+	width: 40%;
+	padding: 5px;
+}
+
+#recommend {
+	padding-top: 10px;
+}
+
+#recommend label {
+	margin: 5px;
+}
+
+#checkbox label {
+	padding: 5px 0;
+}
+
+textarea {
+	width: 600px;
+	height: 100px;
+}
+
+#submit-button {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+}
